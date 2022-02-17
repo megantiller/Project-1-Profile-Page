@@ -1,0 +1,54 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+}
+
+h1 {
+  grid-column-start: apple;
+  grid-column-end: orange;
+  font-family: arial;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#page-container {
+  width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: [first] 30% [second] auto [last];
+}
+
+#home {
+  background: black;
+  color: white;
+}
+
+#languages {
+  display: grid;
+  grid-template-columns: [apple] 30% [banana] 30% [strawberry] 30% [orange];
+  column-gap: 5%;
+  row-gap: 40px;
+  background: green;
+  padding: 30px;
+  position: relative;
+  color: white;
+}
+
+#breeds {
+  display: grid;
+  grid-template-columns: [apple] 30% [banana] 30% [strawberry] 30% [orange];
+  column-gap: 5%;
+  row-gap: 40px;
+  background: gold;
+  padding: 30px;
+  position: relative;
+  color: white;
+}
