@@ -27,17 +27,32 @@ img {
   max-width: 100%;
 }
 
-#page-container {
+/*#page-container {
   width: 800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: [first] 30% [second] auto [last];
+  position: fixed;
+}*/
+
+#main-nav {
+  position: fixed;
+  color: red;
+  font-size: 20px;
 }
+
+/*#main-content {
+  margin-left: auto;
+  margin-right: auto;
+}*/
 
 #home {
   background: black;
   color: white;
   padding: 5px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #languages {
@@ -49,6 +64,9 @@ img {
   padding: 30px;
   position: relative;
   color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #breeds {
@@ -60,4 +78,13 @@ img {
   padding: 30px;
   position: relative;
   color: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-indent: 50px;
 }
