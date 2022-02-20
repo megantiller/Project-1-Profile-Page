@@ -69,6 +69,30 @@ img {
   margin-right: auto;
 }
 
+.Viner-Hand-ITC {
+  font-family: Viner Hand ITC;
+}
+
+.Algerian {
+  font-family: Algerian;
+}
+
+.Cooper-Black {
+  font-family: Cooper Black;
+}
+
+.Forte {
+  font-family: Forte;
+}
+
+.Chantal {
+  font-family: Chantal;
+}
+
+.Matura-MT-Script-Capitals {
+  font-family: Matura MT Script Capitals;
+}
+
 #breeds {
   display: grid;
   grid-template-columns: [apple] 30% [banana] 30% [strawberry] 30% [orange];
