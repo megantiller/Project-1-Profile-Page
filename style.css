@@ -4,12 +4,17 @@ body {
   margin: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 h1 {
   grid-column-start: apple;
   grid-column-end: orange;
   font-family: arial;
   font-weight: normal;
   text-align: center;
+  font-size: 3em;
 }
 
 .center {
@@ -38,7 +43,7 @@ img {
 #main-nav {
   position: fixed;
   color: magenta;
-  font-size: 15px;
+  font-size: 1.5em;
 }
 
 /*#main-content {
@@ -49,7 +54,7 @@ img {
 #home {
   background: black;
   color: white;
-  padding: 5px;
+  padding: 100px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -64,7 +69,7 @@ img {
   padding: 30px;
   position: relative;
   color: white;
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,7 +107,7 @@ img {
   padding: 30px;
   position: relative;
   color: black;
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -110,7 +115,7 @@ img {
 #popular-music {
   background: yellow;
   padding: 5px;
-  width: 80%;
+  width: 60%;
   text-indent: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -129,4 +134,16 @@ footer {
   background-color: black;
   color: white;
   text-indent: 50px;
+}
+
+@media only screen and (min-width: 600px) and (max-width:1000px) {
+  #main-nav {
+    font-size: 0.75em;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  #main-nav {
+    font-size: 0.5em;
+  }
 }
