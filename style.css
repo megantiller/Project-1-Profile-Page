@@ -147,3 +147,12 @@ footer {
     font-size: 0.5em;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  #languages {
+    display: inline;
+  }
+  #breeds {
+    display: inline;
+  }
+}
